@@ -7,10 +7,11 @@ By analyzing key features such as word frequency, email length, and more, this m
 ## 📊 📈  The Dataset
 The dataset used for this project consisted of five columns. The main columns being:
 
-**v1 (Emails):** Containing the email texts
+**v2 (Emails):** Containing the email texts
 
-**v2 (Status):** Indicating whether each email is classified as spam or ham.
+**v1 (Status):** Indicating whether each email is classified as spam or ham.
 
-Additionally, there were three unnamed columns with over 90% missing values, which were removed during the data cleaning process. The dataset originally comprised 5,572 emails before any cleaning was performed. 
+Additionally, there were three unnamed columns with over 90% missing values, which were removed during the data cleaning process. The dataset originally comprised 5,572 emails before any cleaning was performed. You can checkout the dataset [here](https://github.com/your-username/your-repo-name/blob/main/path-to-dataset.csv) used for this project.
+
 
 ## 🧹🧹 Data Cleaning
