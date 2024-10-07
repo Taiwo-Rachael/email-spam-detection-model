@@ -1,8 +1,16 @@
-# email-spam-detection-model
-## 📊 📈 📉 Introduction
-This project involved the analysis of an email dataset using Natural Language Processing (NLP) techniques in python inorder to draw insights from the characteristics of Spam and Non-Spam (Ham) emails, including their lengths, number of words and other factors, and how this factors relate to their Spam or Non-Spam status. A word cloud was created to show the most common words found in Spam emails, providing insights into words which are most likely to trigger the classification of a mail as being spam. The end goal of this project was to train a model to classify mails as either spam or ham (non-spam), effectively keeping our mail box clean.
+# 🚀✉️ Email Spam Detection Model: Filtering the Junk, One Email at a Time!
+## 📊 📉 Introduction
+In today's digital age, inboxes are constantly under siege by unwanted emails, from fake promotions to phishing scams. Sometimes, really important emails end up in the spam folder, which could at times be really frustrating, or even lead to missing important deadlines. This project is designed to combat that flood of junk by implementing an Email Spam Detection Model that leverages natural language processing (NLP) techniques and machine learning algorithms to distinguish between ham (legitimate emails) and spam (unwanted emails). This model will help to ensure inboxes are kept clean and important emails do not end up in the spam folder. 
 
-## 📊 📈 📉 The Dataset
-The dataset used for this project contained five (5) columns, the emails column (v1), the status column (v2) showing whether the mails were spam or ham, and three (3) unnamed columns which had to be taken out in the process of data cleaning as over 90% of the values were null. The dataset contained 5572 emails before cleaning was carried out.
+By analyzing key features such as word frequency, email length, and more, this model learns from patterns in email content, detecting common spam triggers and filtering them out with precision. Let's dive in!
+
+## 📊 📈  The Dataset
+The dataset used for this project consisted of five columns. The main columns being:
+
+**v1 (Emails):** Containing the email texts
+
+**v2 (Status):** Indicating whether each email is classified as spam or ham.
+
+Additionally, there were three unnamed columns with over 90% missing values, which were removed during the data cleaning process. The dataset originally comprised 5,572 emails before any cleaning was performed. 
 
 ## 🧹🧹 Data Cleaning
