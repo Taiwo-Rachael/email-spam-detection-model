@@ -11,7 +11,7 @@ The dataset used for this project consisted of five columns. The main columns be
 
 **v1 (Status):** Indicating whether each email is classified as spam or ham.
 
-Additionally, there were three unnamed columns with over 90% missing values, which were removed during the data cleaning process. The dataset originally comprised 5,572 emails before any cleaning was performed. You can checkout the dataset [here](https://github.com/your-username/your-repo-name/blob/main/path-to-dataset.csv) used for this project.
+Additionally, there were three unnamed columns with over 90% missing values, which were removed during the data cleaning process. The dataset originally comprised 5,572 emails before any cleaning was performed. You can checkout the dataset [here](https://github.com/Taiwo-Rachael/email-spam-detection-model/blob/main/spam.csv).
 
 
 ## 🧹🧹 Data Cleaning
