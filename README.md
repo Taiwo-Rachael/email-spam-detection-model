@@ -2,7 +2,7 @@
 ## 📊 📉 Introduction
 In today's digital age, inboxes are constantly under siege by unwanted emails, from fake promotions to phishing scams. Sometimes, really important emails end up in the spam folder, which could at times be really frustrating, or even lead to missing important deadlines. This project is designed to combat that flood of junk by implementing an Email Spam Detection Model that leverages natural language processing (NLP) techniques and machine learning algorithms to distinguish between ham (legitimate emails) and spam (unwanted emails). This model will help to ensure inboxes are kept clean and important emails do not end up in the spam folder. 
 
-By analyzing key features such as word frequency, email length, and more, this model learns from patterns in email content, detecting common spam triggers and filtering them out with precision. Checkout the full coding process in the [Jupyter Notebook]()
+By analyzing key features such as word frequency, email length, and more, this model learns from patterns in email content, detecting common spam triggers and filtering them out with precision. Checkout the full coding process in the [Jupyter Notebook](https://github.com/Taiwo-Rachael/email-spam-detection-model/blob/main/Email_Spam_Detection_Model.ipynb)
 
 ## 📊 📈  The Dataset
 The dataset used for this project consisted of five columns. The main columns being:  
