@@ -33,3 +33,12 @@ After preprocessing the emails, they were ready for the  next steps. At this poi
   <img src="https://github.com/user-attachments/assets/42bff243-acf8-4050-bd71-030d65ea4981" width="800"/>
 </p>
 
+## Modeling
+**Encoding and Vectorization**
+To get the data ready for the model training, the next thing I had to do was to convert the emails and their labels into numerical forms that the model can work with as Machine Learning models only work with numerical data. For the emails, they were converted into vectors using the Count Vectorizer while the labels were encoded using the Label Encoder. These steps was carried out on the training data.
+
+**Model Training and Evaluation**
+Several classification models including the logistic regression classifier, SVC, random forest classifier and XGBoost classifier were selected and trained in order to determine the best performing one. After evaluation on the test dataset, the performance of the **random forest classifier** was the most impressive. This model correctly classified all non-spam (ham) mails with a recall percentage of a 100% , making us confident that non of our important mails would end up in the spam folder. 
+
+Another impressive thing, was the fact that the model achieved a precision score of 100% for spam mails, for every time an email was classified as 'spam', it was actually a spam email. This implies that if an email ends up in the spam folder, we can be sure that it is actually spam.
+
