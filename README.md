@@ -43,7 +43,7 @@ Several classification models including the logistic regression classifier, SVC,
 Another impressive thing, was the fact that the model achieved a precision score of 100% for spam mails, for every time an email was classified as 'spam', it was actually a spam email. This implies that if an email ends up in the spam folder, we can be sure that it is actually spam. Although, for the ham emails, some false positive were recorded, with the precision score being 96%. The overall performance of the model is still no less impressive. Keeping in perspective that the goal here is to ensure that important mails don't end up in the spam folder and the inbox is kept clean.
 
 ## Conclusion 
-The model demonstrates effectiveness in applying machine learning and natural language processing techniques to classify emails as either spam or ham.  With the balance of high recall and precision recorded, the model achieves the primary objective—keeping the inbox free of unwanted emails while ensuring that no essential communications are lost in the spam folder. This reliable performance makes the model well-suited for practical applications and further improvements.
+The model demonstrates effectiveness in applying machine learning algorithms to classify emails as either spam or ham.  With the balance of high recall and precision recorded, the model achieves the primary objective—keeping the inbox free of unwanted emails while ensuring that no essential communications are lost in the spam folder. This reliable performance makes the model well-suited for practical applications and further improvements.
 
 
 
