@@ -22,5 +22,14 @@ Taking a deep dive into the dataset revealed some interesting insights, includin
 ## ✉️🧹 Email Preprocessing
 In order to get the emails ready for further analysis and modeling, it was necessary to pass the individual mails through a cleaning process including removing punctuations and special characters, tokenization (a NLP technique that splits the raw text into small chunks of words called tokens), stop words removal and lemmatization (a NLP technique that breaks a word down to its root meaning or base form to identify similarities). I did this by defining a 'clean' function to carry out all these processes in a single run. 
 
-**Word Cloud**
-To gain deeper insights into what words would trigger the classification of an email as spam, a word cloud showing the most common 15 words in the spam emails was generated
+## Word Cloud
+After preprocessing the emails, they were ready for the  next steps. At this point, the goal was to find out what words were most common in the spam emails. To achieve this, a word cloud was generated. The size of the words in the cloud is an indication of the frequency. The most common words appear much larger than the others. The word 'call' tops the list here, appearing about 300 times. The frequency of the other words can be seen in the bar chart. The presence of these words in an email will most definitely trigger its classification as spam by the model.
+
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/8918b9cd-2c4e-42c9-a2ca-5f59cf609aac" width="800"/>
+</p>
+
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/42bff243-acf8-4050-bd71-030d65ea4981" width="800"/>
+</p>
+
