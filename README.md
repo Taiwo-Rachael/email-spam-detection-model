@@ -35,7 +35,7 @@ After preprocessing the emails, they were ready for the  next steps. At this poi
 
 ## Modeling
 **Encoding and Vectorization**
-To get the data ready for the model training, the next thing I had to do was to convert the emails and their labels into numerical forms that the model can work with as Machine Learning models only work with numerical data. For the emails, they were converted into vectors using the Count Vectorizer while the labels were encoded using the Label Encoder. These steps was carried out on the training data.
+To get the data ready for the model training, the next thing I had to do was to convert the emails and their labels into numerical forms that the model can work with as Machine Learning models only work with numerical data. For the emails, they were converted into vectors using the Count Vectorizer while the labels were encoded using the Label Encoder. 
 
 **Model Training and Evaluation**
 Several classification models including the logistic regression classifier, SVC, random forest classifier and XGBoost classifier were selected and trained in order to determine the best performing one. After evaluation on the test dataset, the performance of the **random forest classifier** was the most impressive. This model correctly classified all non-spam (ham) mails with a recall percentage of a 100% , making us confident that non of our important mails would end up in the spam folder. 
