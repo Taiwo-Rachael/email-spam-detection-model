@@ -33,7 +33,7 @@ After preprocessing the emails, they were ready for the  next steps. At this poi
   <img src="https://github.com/user-attachments/assets/42bff243-acf8-4050-bd71-030d65ea4981" width="800"/>
 </p>
 
-## Modeling
+## 🤖🤖 Modeling
 **Encoding and Vectorization**
 To get the data ready for the model training, the next thing I had to do was to convert the emails and their labels into numerical forms that the model can work with as Machine Learning models only work with numerical data. For the emails, they were converted into vectors using the Count Vectorizer while the labels were encoded using the Label Encoder. 
 
